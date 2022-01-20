@@ -1,0 +1,11 @@
+<html>
+    <body onclick="addc()">
+        <input id="count" disabled>
+    </body>
+    <script>
+        var count=0;
+        function addc() {
+            count++;
+            document.getElementById('count').value = count;
+        }
+    </script>
