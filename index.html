@@ -10,11 +10,18 @@
                 background-attachment: fixed;
                 background-size: 100% 100%;
             }
+            @media screen and (max-width: 800px) {
+                #count{
+                    font-size: 50px !important;
+                    margin-top: 30% !important;
+                    margin-left: 30% !important;
+                }
+            }
             
         </style>
     </head>
     <body id ="body" onclick="addc()" onload="getc()">
-        <input id="count" disabled style="font-size: 100px; background-color: transparent; border: none; position: fixed; margin-left: 50%; margin-top: 10%;">
+        <input id="count" disabled readonly style="font-size: 100px; background-color: transparent; border: none; position: fixed; margin-left: 50%; margin-top: 10%;">
         <!-- <img src="C:\Users\yodvarich.t\Desktop\bonkshib\frame_3_delay-0.05s.gif"> -->
     </body>
     <script>
